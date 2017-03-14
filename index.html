@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Trivia Game</title>
+		<script src="https://code.jquery.com/jquery-3.1.1min.js"></script>
+		<!-- Latest compiled and minified CSS -->
+<link href="style.css" rel ="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src = "app.js"></script>
+
+	</head>
+	
+	<body>
+	<h1 class="text-center"><strong>Totally Trivial Trivia!</strong></h1>
+	<h3 class="text-center"><strong>Time Remaining: 120second</strong></h3>
+					<br>
+	<form id = "quiz" name = "quiz">
+		
+
+<!--Question 1-->
+
+	
+	<p>What was the first full length CGI movie?</p>
+	
+  <input type="radio" name="question1" value="A Bug's Life" checked> A Bug's Life
+  <input type="radio" name="question1" value="Monsters Inc"> Monsters Inc
+  <input type="radio" name="question1" value="Toy Story"> Toy Story
+  <input type="radio" name="question1" value="The Lion King"> The Lion King
+		
+		
+<!--Question 2-->
+	
+	
+	<p>Which of these is NOT a name of one of Spice Girls?</p>
+
+  <input type="radio" name="question2" value="Sporty Spice" checked> Sporty Spice
+  <input type="radio" name="question2" value="Fred Spice"> Fred Spice
+  <input type="radio" name="question2" value="Scary Spice"> Scary Spice
+  <input type="radio" name="question2" value="Posh Spice"> Posh Spice
+ 
+
+<!--Question 3-->
+
+	
+	<p>Which NBA team won the most titles in the 90s?</p>
+	
+  <input type="radio" name="question3" value="New York Knicks" checked> New York Knicks
+  <input type="radio" name="question3" value="Portland Trailblazers"> Portland Trailblazers
+  <input type="radio" name="question3" value="Los Angeles Lakers"> Los Angeles Lakers
+  <input type="radio" name="question3" value="Chicago Bulls"> Chicago Bulls
+  
+
+
+<!--Question 4-->
+
+
+	<p>Which group released the hit song. ""Smells Lie Teen Sprit"?</p>
+	
+  <input type="radio" name="question4" value="Nirvana" checked> Nirvana
+  <input type="radio" name="question4" value="Back Street Boys"> Back Street Boys
+  <input type="radio" name="question4" value="The Offspring"> The Offspring
+  <input type="radio" name="question4" value="No Doubt"> No Doubt
+ 
+
+
+<!--Question 5-->
+
+
+	<p>Which popular Disney movie featured the song, "Circle of Life"?</p>
+	
+  <input type="radio" name="question5" value="Aladdin" checked> Aladdin
+  <input type="radio" name="question5" value="Hercules"> Hercules
+  <input type="radio" name="question5" value="Mulan"> Mulan
+  <input type="radio" name="question5" value="The Lion King"> The Lion King
+  
+
+	
+<!--Question 6-->
+
+
+	<p>Finish this line from the French price of Bel-Air theme songs: "I whistled for a cab and when it come near, the license plate said___"</p>
+	
+  <input type="radio" name="question6" value="Dice" checked> Dice
+  <input type="radio" name="question6" value="Mirror"> Mirror
+  <input type="radio" name="question6" value="Fresh"> Fresh
+  <input type="radio" name="question6" value="Cab"> Cab
+  
+
+
+<!--Question 7-->
+
+
+		
+	<p>What was Doug's best friend's name?</p>
+	
+  <input type="radio" name="question7" value="Skeeter" checked> Skeeter
+  <input type="radio" name="question7" value="Mark"> Mark
+  <input type="radio" name="question7" value="Zach"> Zach
+  <input type="radio" name="question7" value="Cody"> Cody
+  
+
+
+<!--Question 8-->
+
+
+	<p>What was the the name of the principal at Bay side High in Saved By the Bell?</p>
+	
+  <input type="radio" name="question8" value="Mr. Zhou" checked> Mr. Zhou
+  <input type="radio" name="question8" value="Mr. Diggers"> Mr. Diggers
+  <input type="radio" name="question8=" value="Mr. Belding"> Mr. Belding
+  <input type="radio" name="question8" value="Mr. Page"> Mr. Page
+  
+
+				<br>
+
+<input id = "button" type = "button" value = "Done!" onclick = "check();">
+
+	<!-- jQuery-->
+		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+		
+
+	<!-- Main Game javascript-->
+		<script src="assets/javascript/game.js"></script>
+		
+	</form>
+	
+	<div id= "after_submit">
+	<p id = "message"></p>
+	
+	<p id="number_correct"></p>
+	</div>
+	</body>
+	</html>
+	

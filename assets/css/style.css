@@ -1,0 +1,16 @@
+#lengthMovie{
+	font-size: 20px;
+}
+#after_submit{
+	visibility: hidden;
+}
+input {
+	margin-bottom: 20px;
+	display: block;
+}
+#button{
+	background: green;
+	border: none;
+	color: yellow;
+	font-size: 16px;
+}
